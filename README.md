@@ -45,10 +45,11 @@ Install dependencies from requirements.txt
 pip3 install -r requirements.txt
 ```
 
-#If you want to contribute to the project follow this steps
+# If you want to contribute to the Population Project follow this steps
 ```sh
 git clone
 cd app
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
