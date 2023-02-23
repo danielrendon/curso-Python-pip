@@ -6,7 +6,7 @@ For running the game you must type the next commands in WSL terminal:
 cd game
 python3 main.py
 ```
-
+# App Project
 
 For installing virtual environment in linux:
 
@@ -31,4 +31,25 @@ To exit virtual environment:
 
 ```sh
 deactivate
+```
+
+Send needed dependencies to requirements.txt
+
+```sh
+pip3 freeze > requirements.txt
+```
+
+Install dependencies from requirements.txt
+
+```sh
+pip3 install -r requirements.txt
+```
+
+#If you want to contribute to the project follow this steps
+```sh
+git clone
+cd app
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
 ```
